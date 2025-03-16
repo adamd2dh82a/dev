@@ -45,3 +45,11 @@ input[type="text"] {
     color: #333;
     text-align: center;
 }
+
+button.pause {
+    background-color: #FFA500;
+}
+
+button.reset {
+    background-color: #FF0000;
+}
