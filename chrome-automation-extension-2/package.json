@@ -1,0 +1,26 @@
+{
+  "name": "chrome-automation-extension",
+  "version": "1.0.0",
+  "description": "A Chrome extension for automation with a manager page.",
+  "main": "src/background/background.ts",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "chrome",
+    "extension",
+    "automation"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^4.0.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.0.0",
+    "ts-loader": "^8.0.0"
+  }
+}
